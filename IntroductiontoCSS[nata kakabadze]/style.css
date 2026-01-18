@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans Georgian", sans-serif;
+  background-color: #f7f7f7;
+  color: #222;
+}
+
+/* HEADER */
+.site-header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  color: #5B47D1;
+  background-color: #F0EDFF;
+  padding: 15px;
+  font-size: 24px;
+}
+
+.nav-list {
+  display: flex;
+  font-weight: 500;
+  font-size: 24px;
+  gap: 24px;
+  list-style: none;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+/* HERO */
+.hero {
+  background-image: url(e11fe0289d1ad6e93656e54c43b99f9275d82560.jpg);
+  background-position:0% 43%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 150px 24px;
+  height: 400px;
+  text-align: center;
+  color: #ffffff;
+}
+
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.hero-description {
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+/* BLOG SECTION */
+.blog-section {
+  max-width: 1200px;
+  margin: 64px auto;
+  padding: 0 24px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* CARD */
+.blog-card {
+    width: 360px;
+    height: 480px;
+  background: #ffffff;
+
+  overflow: hidden;
+}
+
+.card-image {
+  height: 240px;
+}
+
+.purple { background: #C7B8FF; }
+.pink   { background: #FFB8D8; }
+.blue   { background: #B8E0FF; }
+.green  { background: #D4FFB8; }
+.yellow { background: #FFE4B8; }
+.orange { background: #FFD4B8; }
+
+.card-content {
+  padding: 16px;
+}
+
+.card-meta {
+  display: flex;
+  gap: 30px; 
+  font-size: 13px;
+  font-weight: 400;
+  color: #777;
+}
+
+
+.card-title {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.card-text {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* FOOTER */
+.site-footer {
+  background: #252424;
+  margin-top: 80px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.footer-container h4 {
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.footer-container p{
+    color: #A1A1A6;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.footer-links ul {
+  list-style: none;
+  color: #A1A1A6;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  background: #111;
+  color: #86868B;
+}
